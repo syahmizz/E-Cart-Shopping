@@ -1,0 +1,127 @@
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover{
+    color:#1abc9c !important;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #474e5d;
+    color: #ffffff;
+}
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+    background-color: #474e5d;
+}
+p {
+    font-size: 16px;
+}
+.container{
+    display: flex;
+}
+.header {
+background-color:#f8f9fa;
+height:100px;
+text-align: center;
+}
+.logo-container {
+    margin-right: auto;
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+.search-cart-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+.search-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.search-input {
+    padding: auto 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-size: 20px;
+    box-sizing: border-box;
+}
+.search-button {
+    padding: 8px;
+    background-color: #b1becc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cart-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    align-item: left;
+}
+.div1 {
+    flex: 0 0 15%;
+    font-size: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #2f2f2f;
+}
+.div2 {
+    flex-grow: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #2f2f2f;
+}
+.orderUpdate {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.viewDetailsButton {
+    margin-left: auto;
+    background-color: #474e5d;
+}
+.orderUpdate img {
+    width: 90px;
+    height: 90px;
+    display: block;
+    margin-right: 10px;
+}
+.see-more-button {
+    margin-left: auto;
+    display: block;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.container-fluid{
+     padding-top:20px;
+     padding-bottom: 20px;
+     background-color: #ABB2B9; 
+}

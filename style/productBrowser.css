@@ -1,0 +1,172 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f5f6f7;
+    background-color: #2f2f2f;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+
+.bg-1 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+
+.logo-container {
+    margin-right: 10px;
+}
+
+.logo {
+    max-width: 120px;
+    height: auto;
+}
+
+.search-cart-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-right: 5px auto;
+    position: relative;
+}
+
+.search-input {
+    padding: 8px 30px 8px 40px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-size: 20px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.search-button {
+    padding: 8px;
+    background-color: #b1becc;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-icon {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* Recently searched styles */
+.recent-search-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    display: none;
+    color: black;
+}
+
+.recent-search-header {
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    color: black;
+}
+
+.recent-searches {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    color: black;
+}
+
+.recent-searches-item {
+    padding: 8px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+}
+
+#showMore {
+    padding: 8px;
+    cursor: pointer;
+    text-align: center;
+    color: #007bff;
+    display: none;
+}
+
+.show-more-container {
+    text-align: center;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.search-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.search-item {
+    background-color: #474e5d;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.search-item:hover {
+    transform: scale(1.05);
+}
+
+.search-term {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: #474e5d;
+}
+
+.search-time {
+    font-size: 0.9em;
+    color: #ffffff;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ABB2B9;
+}

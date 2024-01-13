@@ -1,0 +1,89 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+
+.bg-1 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+    padding: 20px;
+}
+
+
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.bg-4 {
+    background-color: #ABB2B9;
+    color: #ffffff;
+    height: 200px;
+    padding-top: 5px;
+}
+
+
+/* Updated styles for li a in bg-2 */
+.container-fluid.bg-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container-fluid.bg-2 li a {
+    display: block;
+    /*tak letak fixed width*/
+    color: #fff;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container-fluid.bg-2 li a:hover {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.img-transition {
+    width: 150px;
+    height: 150px;
+    transition: width 0.5s, height 0.5s, box-shadow 0.5s, transform 0.5s;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    /* Adjust the desired box-shadow */
+}
+
+.img-transition:hover {
+    width: 200px;
+    /* Adjust the desired width */
+    height: 200px;
+    /* Adjust the desired height */
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+    /* Adjust the desired box-shadow */
+    transform: rotate(50deg);
+}

@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2f2f2f;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+
+.container1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.combined {
+    display: flex;
+    gap: 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 700px;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.productBox {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.productPic {
+    padding: 10px;
+}
+
+.productName {
+    width: 450px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.checkbox {
+    margin-left: auto;
+}
+
+.checkout {
+    background-color: aliceblue;
+    width: 400px;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+.price {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.checkout-button-container {
+    border: 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+
+#gamba {
+    width: 300px;
+}
+
+
+.voucher-label {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.voucher-input {
+    padding: 8px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.voucher-input::placeholder {
+    font-size: 14px;
+}
+
+.apply-button-container {
+    display: flex;
+    justify-content: center;
+    border: 2px black;
+}
+
+.bg-4 {
+    background-color: #ABB2B9;
+    color: #ffffff;
+    height: 200px;
+    padding-top: 5px;
+}
+
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

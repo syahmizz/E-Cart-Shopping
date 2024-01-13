@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contact/Service</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style/contact.css">
+</head>
+
+<body>
+    <a href="javascript:history.back()" style="position: fixed; top: 20px; left: 20px; z-index: 999;">
+        <img src="media/back.png" alt="Back" style="width: 40px; height: 30px;">
+    </a>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="Home.html">HOME</a></li>
+                    <li><a href="Mall.html">MALL</a></li>
+                    <li><a href="ShoppingCart.html">SHOPPING CART</a></li>
+                    <li><a href="ProductBrowser.html">PRODUCT BROWSER</a></li>
+                    <li><a href="Notifications.html">NOTIFICATIONS</a></li>
+                    <li><a href="Contact Us.html">CONTACT/SERVICE</a></li>
+                    <li><a href="MyProfile.html">PROFILE</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid bg-1" style="padding: 10px;">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4" style="margin-right: -15px;">
+                <img src="media/Logo3.png" alt="Logo" style="display:inline; width: 170px; height: 160px;">
+            </div>
+            <div class="col-xs-12 col-sm-6 col-md-8">
+                <p style="font-size: 40px; margin-bottom: 5px;">Help Center <img src="media/help.png" alt="help"
+                        height="90" style="margin-right: 5px;"></p>
+                <h4 style="font-size: 16px; margin-top: 5px;">We are here to assist you. Feel free to reach out!</h4>
+                <h3 style="font-size: 22px; margin-top: 5px;">Need specific Help <img src="media/Qmark.png" alt="Q"
+                        height="50"></h3>
+            </div>
+        </div>
+
+
+        <div class="container-fluid bg-2 text-center">
+            <ul>
+                <li><a href="#FAQ"><img src="media/faq.png" alt="faq" height="20" style="margin-right: 5px;"> FAQ</a>
+                </li>
+                <li><a href="#BotChat"><img src="media/botchat.png" alt="botchat" height="40"
+                            style="margin-right: 5px;">
+                        BotChat</a>
+                </li>
+                <li><a href="#Call"><img src="media/call.png" alt="Like" height="20" style="margin-right: 5px;">
+                        Call</a></li>
+                <li><a href="mailto:eCartCompany@gmail.com"><img src="media/email.png" alt="Cart" height="25"
+                            style="margin-right: 5px;"> Email</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="custom-image">
+        <img src="media/line.png" alt="line">
+    </div>
+
+    <div class="custom-image1">
+        <img src="media/csv.png" alt="custSv">
+        <div class="image-text">&diams; Customer Service &diams;</div>
+    </div>
+
+    <div class="custom-image2">
+        <img src="media/cs.png" alt="custSupp">
+        <div class="image-text">&diams; Customer Support &diams;</div>
+    </div>
+
+    <div class="custom-image3">
+        <img src="media/cs2.png" alt="custSucc">
+        <div class="image-text">&diams; Customer Success &diams;</div>
+    </div>
+    <div class="custom-text">
+        <p style="font-size: 18px; font-weight: light; color: #FFFFFF;">Kindly fill this form...</p>
+        <!-- Add your form elements below -->
+        <form action="/submit_form" method="post">
+
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <form id="contactForm" action="/submit_form" method="post">
+                <button type="button" onclick="submitForm()">Submit</button>
+            </form>
+    </div>
+    <script>
+        function submitForm() {
+            // You can add form validation here if needed
+
+            // Display a popup message
+            alert('Thank you for your enquiry. Our Customer Support agent will attend to your ticket within 24 hours. You will be updated via SMS or email once our agents have replied.');
+
+            // Optionally, you can reset the form after submission
+            document.getElementById('contactForm').reset();
+        }
+    </script>
+    </div>
+
+    <footer class="container-fluid footer text-center">
+        <img src="media/logo2.png" alt="Company Logo" height="100" style="margin-right: 10px;">
+        <p>Secure Payment <img src="media/visa.png" alt="visa" height="30" style="margin-right: 10px;"> <img
+                src="media/mastercard.png" alt="mastercard" height="30" style="margin-right: 0px;"> </p>
+        <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Use of Cookies</a> | &copy; ECart
+            Company 2023
+        </p>
+    </footer>
+</body>
+
+</html>

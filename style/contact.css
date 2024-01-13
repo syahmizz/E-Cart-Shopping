@@ -1,0 +1,222 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+
+.bg-1 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.container-fluid.bg-1 {
+    height: auto;
+    /* Adjust the height as needed */
+}
+
+.container-fluid.bg-1 {
+    height: 650px;
+    /* Adjust the height as needed */
+}
+
+.container-fluid.bg-2 {
+    width: 300px;
+    margin: 0;
+    margin-left: 0;
+    padding: 0;
+}
+
+/* Updated styles for li a in bg-2 */
+.container-fluid.bg-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container-fluid.bg-2 li a {
+    display: block;
+    color: #fff;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container-fluid.bg-2 li a:hover {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.bg-3 {
+    background-color: #ffffff;
+    color: #555555;
+}
+
+.footer {
+    background-color: #ABB2B9;
+    color: #ffffff;
+    height: 200px;
+    padding-top: 5px;
+}
+
+.help-container {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.help-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #ffffff;
+}
+
+.custom-image {
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.custom-image img {
+    width: 50px;
+    height: 400px;
+    margin-left: 5px;
+}
+
+.custom-text {
+    position: absolute;
+    top: 260px;
+    left: 450px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* Optional: Add styles to align form elements */
+.custom-text form {
+    margin-top: 20px;
+}
+
+.custom-text label {
+    font-size: 15px;
+    display: inline-block;
+    /* Display labels and input fields inline */
+    width: 30%;
+    /* width for labels to create space */
+    margin-bottom: 2px;
+}
+
+.custom-text input {
+    width: 200px;
+    /* width of input fields */
+    height: 28px;
+    padding: 8px;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    /* Display input fields inline */
+    color: black;
+}
+
+.custom-text textarea {
+    width: 330px;
+    padding: 8px;
+    font-size: 11px;
+    box-sizing: border-box;
+    display: block;
+    margin-top: 1px;
+    /* space between the label and the textarea */
+    color: black;
+}
+
+.custom-text button {
+    width: 100px;
+    /* width of the button */
+    padding: 10px;
+    /* padding around the button text */
+    font-size: 14px;
+    /* font size of the button text */
+    background-color: #32CD32;
+    /* background color of the button */
+    color: white;
+    /* text color of the button */
+    border: none;
+    /* remove border */
+    border-radius: 5px;
+    /* add rounded corners */
+    cursor: pointer;
+}
+
+.custom-text button:hover {
+    background-color: #98FB98;
+}
+
+.custom-image1 {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+
+.custom-image1 img {
+    width: 155px;
+    height: 155px;
+}
+
+.custom-image2 {
+    position: absolute;
+    top: 280px;
+    left: 985px;
+}
+
+.custom-image2 img {
+    width: 190px;
+    height: 170px;
+}
+
+.custom-image3 {
+    position: absolute;
+    top: 500px;
+    left: 985px;
+}
+
+.custom-image3 img {
+    width: 185px;
+    height: 185px;
+}
+
+.image-text {
+    margin-left: 18px;
+    /* Adjust the margin as needed */
+    font-size: 14px;
+    color: white;
+    /* Set the text color */
+}

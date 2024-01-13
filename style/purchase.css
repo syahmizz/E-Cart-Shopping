@@ -1,0 +1,168 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {
+    font-size: 16px;
+}
+
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 11px;
+    letter-spacing: 5px;
+}
+
+.bg-1 {
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+
+.bg-2 {
+    background-color: #474e5d;
+    color: #ffffff;
+    padding: 20px;
+
+    ul {
+        list-style-type: none;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+        margin-right: 111px;
+    }
+
+    li:first-child {
+        margin-left: 90px;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 4px 12px;
+        text-decoration: none;
+    }
+}
+
+.bg-3 {
+    background-color: #2f2f2f;
+    color: #555555;
+    position: relative;
+    height: 420px;
+    /* Change this value according to your preference */
+}
+
+.footer {
+    background-color: #ABB2B9;
+    color: #ffffff;
+    height: 200px;
+    padding-top: 5px;
+}
+
+.custom-text {
+    position: absolute;
+    top: 400px;
+    left: 400px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.custom-text img {
+    margin-left: 10px;
+}
+
+.order-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-details {
+    display: flex;
+}
+
+.order-details .green-text {
+    color: green;
+}
+
+.container-fluid.bg-2 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container-fluid.bg-2 li a {
+    display: block;
+    color: #fff;
+    padding: 15px 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.container-fluid.bg-2 li a:hover {
+    background-color: #2f2f2f;
+    color: white;
+}
+
+.slideshow-container {
+    max-width: 250px;
+    position: relative;
+    margin-left: 60px;
+}
+
+.mySlides {
+    display: none;
+}
+
+.mySlides img {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.bg-3 .text {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation: fade 5.0s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .text {
+        font-size: 11px;
+    }
+}

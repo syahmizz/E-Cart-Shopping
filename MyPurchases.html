@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <title>My Purchases</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="style/purchase.css">
+</head>
+
+<body>
+   <a href="javascript:history.back()" style="position: fixed; top: 20px; left: 20px; z-index: 999;">
+      <img src="media/back.png" alt="Back" style="width: 50px; height: 50px;">
+   </a>
+
+   <nav class="navbar navbar-default">
+      <div class="container">
+         <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+               <span class="icon-bar"></span>
+            </button>
+         </div>
+         <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+               <li><a href="Homepage.html">HOME</a></li>
+               <li><a href="Mall.html">MALL</a></li>
+               <li><a href="ShoppingCart.html">SHOPPING CART</a></li>
+               <li><a href="ProductBrowser.html">PRODUCT BROWSER</a></li>
+               <li><a href="Notifications.html">NOTIFICATIONS</a></li>
+               <li><a href="Contact Us.html">CONTACT/SERVICE</a></li>
+               <li><a href="MyProfile.html">PROFILE</a></li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <div class="container-fluid bg-1" style="padding: 10px;">
+      <div class="row">
+         <div class="col-xs-12 col-sm-6 col-md-4" style="margin-right: -15px;">
+            <img src="media/Logo3.png" alt="Logo" style="display:inline; width: 170px; height: 160px;">
+         </div>
+         <div class="col-xs-12 col-sm-6 col-md-8">
+            <h3 style="font-size: 33px;">MY PURCHASES <img src="media/history.png" alt="history"
+                  style="display:inline; width: 82px; height: 82px; "></h3>
+            <h4 style="font-size: 18px; margin-top: 5px;">|| View your purchase history here || </h4>
+         </div>
+      </div>
+   </div>
+   <div class="container-fluid bg-2 text-center">
+      <ul>
+         <li><a href="#">To Pay</a></li>
+         <li><a href="#">To Ship</a></li>
+         <li><a href="#">To Receive</a></li>
+         <li class="active"><a href="#">Completed</a></li>
+         <li><a href="#">Cancelled</a></li>
+         <li><a href="#">Return/Refund</a></li>
+      </ul>
+   </div>
+   <div class="container-fluid bg-3 text-center">
+      <a href="javascript:history.back()" style="position: fixed; top: 20px; left: 20px; z-index: 999;">
+         <img src="media/back.png" alt="Back" style="width: 40px; height: 30px;">
+      </a>
+      <div class="slideshow-container">
+         <div class="mySlides fade">
+            <img src="media/hoodie1.png">
+         </div>
+         <div class="mySlides fade">
+            <img src="media/hoodie2.png">
+         </div>
+         <div class="mySlides fade">
+            <img src="media/hoodie3.png">
+         </div>
+         <div class="mySlides fade">
+            <img src="media/hoodie4.png">
+         </div>
+      </div>
+      <br>
+      <div style="text-align:center">
+         <span class="dot"></span>
+         <span class="dot"></span>
+         <span class="dot"></span>
+         <span class="dot"></span>
+      </div>
+      <script>
+         var slideIndex = 0;
+         showSlides();
+
+         function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+
+            for (i = 0; i < slides.length; i++) {
+               slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+
+            if (slideIndex > slides.length) {
+               slideIndex = 1;
+            }
+
+            for (i = 0; i < dots.length; i++) {
+               dots[i].className = dots[i].className.replace(" active", "");
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+
+            setTimeout(showSlides, 5000); // Change image every 5 seconds
+         }
+      </script>
+   </div>
+   <div class="custom-text">
+      <h2 style="margin-bottom: 20px;">Payment Details <img src="media/payment.png" alt="payment"
+            style="display:inline-block; width: 50px; height: 50px; margin-left: 10px;"> </h2>
+      <div class="order-details">
+         <h4>Product Name: <span class="green-text">Billie Eilish x Bershka Hoodie</h4>
+         <h4>Order ID: <span class="green-text">23121209PYUNCN</span></h4>
+         <h4>Total Amount: <span class="green-text">RM 188.58</span></h4>
+         <h4>Payment Method: <span class="green-text">Online Banking</span></h4>
+         <h4>Payment Time: <span class="green-text">12-12-2023 09:14</span></h4>
+         <h4>Ship Time: <span class="green-text">13-12-2023 13:30</span></h4>
+         <h4>Received Time: <span class="green-text">16-12-2023 17:30</span></h4>
+      </div>
+   </div>
+   <footer class="container-fluid footer text-center">
+      <img src="media/logo2.png" alt="Company Logo" height="100" style="margin-right: 10px;">
+      <p>Secure Payment <img src="media/visa.png" alt="visa" height="30">
+         <img src="media/mastercard.png" alt="mastercard" height="30">
+      </p>
+      <p><a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a> | <a href="#">Use of Cookies</a> | &copy; ECart
+         Company 2023
+      </p>
+   </footer>
+</body>
+
+</html>
